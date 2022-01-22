@@ -1,5 +1,5 @@
 {
-  "name": "next-app",
+  "name": "pokemon-next",
   "private": true,
   "scripts": {
     "dev": "next dev",
