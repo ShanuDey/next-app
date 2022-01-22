@@ -16,11 +16,12 @@ export const PokeList = () => {
         )}`
       )
       .then(function (response) {
-        console.log(response);
+        // console.log(response);
         setPokemons(response.data.results);
       })
       .catch(function (error) {
         console.log(error);
+        alert('Failed to fetch Pokemons');
       });
   }, []);
 
